@@ -57,6 +57,7 @@
 					$(this).parent().html(newValue);
 				}
 			});
+		// Example: http://jsfiddle.net/bababalcksheep/ntcwust8/
 		});
 		</script>
 		

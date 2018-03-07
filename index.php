@@ -14,6 +14,33 @@
 				"bServerSide": true,
 				"sAjaxSource": "get_data.php"
 			});
+			
+			/*
+				$.fn.dataTableExt.errMode = 'ignore';
+				$('#datatable_companies').dataTable({
+				"sServerMethod": "get", 
+				"bProcessing": true,
+				"bServerSide": true,
+				"sAjaxSource": $('meta[name="route"]').attr('content') + '/administrator/fetchcompanies',
+
+				/*"columnDefs": [
+				{ "className": "dt-center", "targets": [0, 9, 10] }
+				],
+				"aoColumns": [
+				{ 'bSortable' : true },
+				{ 'bSortable' : true },
+				{ 'bSortable' : false },
+				{ 'bSortable' : false },
+				{ 'bSortable' : false },
+				{ 'bSortable' : false },
+				{ 'bSortable' : false },
+				{ 'bSortable' : false },
+				{ 'bSortable' : false },
+				{ 'bSortable' : true },
+				{ 'bSortable' : false }
+				]*/
+				});
+			*/
 
 			// Inline editing
 			var oldValue = null;
